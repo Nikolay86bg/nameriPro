@@ -1,0 +1,17 @@
+{%- block autocomplete_select_entity_widget -%}
+    {% set attr = attr|merge({ class: attr.class|default('') ~ ' form-control'}) %}
+    <select {{ block('widget_attributes') }}>
+    {% if value is iterable %}
+        {% for id, label in value %}
+            <option value="{{ id }}" selected="selected">{{ label }}</option>
+        {% endfor %}
+    {% endif %}
+    </select>
+{%- endblock -%}
+
+{%- block autocomplete_select_widget -%}
+    {% set attr = attr|merge({ class: attr.class|default('') ~ ' autocomplete form-control'}) %}
+    {{ block('choice_widget') }}
+{%- endblock -%}
+
+

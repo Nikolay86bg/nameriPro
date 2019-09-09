@@ -1,0 +1,31 @@
+{% extends 'layout.html.twig' %}
+
+{% block body_class %}{% endblock body_class %}
+
+{% block body %}
+<div class="container-scroller">
+    <div class="horizontal-menu">
+{#        {% include 'menu/top_navigation.html.twig' %}#}
+{#        {% include 'menu/main_menu.html.twig' %}#}
+    </div>
+
+    <div class="container-fluid page-body-wrapper">
+        <div class="main-panel">
+            <div class="content-wrapper">
+                {% include 'base/alerts.html.twig' %}
+
+                {% block content %}{% endblock content %}
+            </div>
+
+            <footer class="footer">
+                <div class="clearfix">
+                    <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">
+                        {{ 'general.copy'|trans({ '%year%': 'now'|date('Y') })|raw }}
+                    </span>
+                </div>
+            </footer>
+
+        </div>
+    </div>
+</div>
+{% endblock body %}

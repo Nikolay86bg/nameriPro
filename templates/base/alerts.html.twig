@@ -1,0 +1,12 @@
+{% for type, messages in app.flashes %}
+    {% set class = (type == 'success') ? 'bg-success' : 'bg-danger' %}
+    {% for message in messages %}
+        <div class="alert alert-dismissible {{ class }}">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+
+            {{ message }}
+        </div>
+    {% endfor %}
+{% endfor %}

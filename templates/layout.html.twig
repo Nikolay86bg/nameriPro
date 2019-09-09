@@ -1,0 +1,34 @@
+{% apply spaceless %}
+<!--
+ ◬
+◬◬◬
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#3664ae" />
+
+    <title>{% block title %}{{ site_name }}{% endblock title %}</title>
+
+    {% block stylesheets %}
+{#        {% for filename in encore_entry_css_files('css/main') %}#}
+{#            <link href="{{ preload(asset(filename), { as: 'style' }) }}" rel="stylesheet" />#}
+{#        {% endfor %}#}
+    {% endblock stylesheets %}
+</head>
+<body class="{% block body_class %}{% endblock body_class %}">
+
+    {% block body %}{% endblock body %}
+
+{% block javascripts %}
+{#    {% for filename in encore_entry_js_files('js/main') %}#}
+{#        <script src="{{ preload(asset(filename), { as: 'script' }) }}"></script>#}
+{#    {% endfor %}#}
+{% endblock javascripts %}
+
+</body>
+</html>
+{% endapply %}
