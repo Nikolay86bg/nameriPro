@@ -1,0 +1,189 @@
+security:
+    login.title: "Sign In"
+    form:
+        message:
+            sign_in: "Sign in to start your session"
+        button:
+            login: "Sign In"
+        label:
+            username: Username
+            password: Password
+            caps_lock: "Caps Lock is on!"
+
+general:
+    error:
+        425: "Yeah, right"
+        403: "You Shall Not Pass!"
+        404: "This page doesn't exist"
+        500: "Internal Server Error"
+    copy: "&copy; %year%"
+    settings: Settings
+    logout: Logout
+    buttons:
+        list: List
+        new: New
+        save: Save
+        show: Show
+        send: Send
+        edit: Edit
+        back: Back
+        next: Next
+        refresh: Refresh
+    flashes:
+        saved: "Your changes were saved successfully!"
+        deleted: "Removed successfully!"
+        wrong_phone_format: "Wrong Phone Format! It should be 11 digits!"
+        business_address_limit: 'Every business should have no more than one address with type business!'
+        missing_data: 'Missing data!'
+
+api:
+    response:
+        success: Success
+        error: Error
+        invalid: "Invalid or missing data"
+        no_price_list_for_this_criteria: 'No Price List for this criteria!'
+        no_price_list_for_this_currency: 'No Price List for this currency!'
+        no_business_address: 'No business address is set!'
+        no_cancellation_requests_were_found: 'No cancellation requests were found'
+        no_customers_were_found: 'No customers were found'
+
+placeholder:
+    choose_entity: 'Choose and Entity...'
+    choose_report_type: 'Choose a report type...'
+
+page:
+    reports:
+        new: 'Create new report'
+
+label:
+    department: Department
+    position: Position
+    level: Level
+    industry: Industry
+    language: Language
+    package: Package
+    service: Service
+    user: User
+    reports: Reports
+    list: List
+    profile_icon: "Profile Icon"
+    username: Username
+    full_name: "Full name"
+    email: Email
+    last_login: "Last Login"
+    name: Name
+    code: Code
+    parent: Parent
+    comment: Comment
+    actions: Actions
+    description: Description
+    percentage_from: "Percentage From"
+    percentage_to: "Percentage To"
+    google_index: "Google Index"
+    keyword_index: "Keyword Index"
+    report_type: "Report Type"
+    entity: Entity
+    owner: Owner
+    city: City
+    state: State
+    population: Population
+    longitude: Longitude
+    latitude: Latitude
+    zip_code: "Zip Code"
+    deal_wizard: "Deal Wizard"
+    phone: Phone
+    sms: SMS
+    address: Address
+    type: Type
+    mailing: Mailing
+    billing: Billing
+    business: Business
+    contact: Contact
+    first_name: "First Name"
+    last_name: "Last Name"
+    phone_number: "Phone number"
+    number: Number
+    stage: Stage
+    placement: Placement
+    tech_name: "Tech Name"
+    preferred_way_of_communication: "Preferred Way Of Communication"
+    list_of_services: "List Of Services"
+    in_business_since: "In Business Since"
+    money_maker: "Money Maker"
+    areas_served: "Areas Served"
+    language_spoken: "Language Spoken"
+    other_information: "Other Information"
+    method_of_work: "Method Of Work"
+    team_members: "Team Members"
+    years_of_experience: "Years Of Experience"
+    license: License
+    insured: Insured
+    certified: Certified
+    company_bonded: "Company Bonded"
+    sets_apart_from_competition: "Sets Apart From Competition"
+    bbb_accreditation: "BBB Accreditation"
+    warranties: Warranties
+    free_estimates: "Free Estimates"
+    discounts: Discounts
+    story: "Brief history or success story of your business"
+    shop_type: "Shop Type"
+    colors: Colors
+    logo_data: "Logo Data"
+    pictures_data: "Pictures Data"
+    working_hours: "Working Hours"
+    need_appointment: "Need Appointment"
+    prices: Prices
+    active: Active
+    currency: Currency
+    industry_level: "Industry Level"
+    city_level: "City Level"
+    setup_amount: "Setup Amount"
+    recurring_amount: "Recurring Amount"
+    default_setup_price: "Default Setup Price"
+    seo_service_price_list: "Seo Service Price List"
+    default_recurring_price: "Default Recurring Price"
+    additional_hours: "Additional Hours"
+    sms_provider_phone: "SMS Provider Phone"
+    sms_provider: "SMS Provider"
+    country: "Country"
+    service_default_prices: "Service Default Prices"
+    send_via_sms_to: "Send via SMS to"
+    message: Message
+    deal: Deal
+    date: Date
+    status: Status
+    customer_sent_i_agree: 'Customer sent "I agree"'
+    received_sms_messages: "Received SMS Messages"
+    seo_services: "Seo Services"
+    created_at: 'Created At'
+    updated_at: 'Updated At'
+    calls: 'Calls'
+    call: 'Call'
+    retention: 'Retention'
+    retention_attempt_note: "Retention attempt note"
+    customer: 'Customer'
+    retention_user: 'Retention User'
+    automatic_distribution: 'Automatic distribution'
+    created_by: 'Created By'
+    updated_by: 'Updated By'
+    cancel_reasons: 'Cancel Reasons'
+    cancel_reason: 'Cancel Reason'
+    autobilled: 'Auto billed'
+    period: "Period"
+    balance: "Balance"
+    paid_date: "Paid date"
+    ptp_date: "Ptp date"
+    duration: "Duration"
+    called_from: "Called From"
+    assigned_to: "Assigned To"
+    request_id: "Request ID"
+    Cancellation_Requests: "Cancellation Requests"
+    filter: "Filter"
+    view_more: "View More"
+    search: "Search"
+    customers: "Customers"
+    report:
+        type:
+            table: Table
+
+
